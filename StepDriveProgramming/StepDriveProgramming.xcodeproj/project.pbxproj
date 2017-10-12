@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64A8598B1F8F093800BF0A4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A8598A1F8F093800BF0A4C /* AppDelegate.swift */; };
+		64A8598D1F8F093800BF0A4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A8598C1F8F093800BF0A4C /* ViewController.swift */; };
+		64A859901F8F093800BF0A4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A8598E1F8F093800BF0A4C /* Main.storyboard */; };
+		64A859921F8F093800BF0A4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A859911F8F093800BF0A4C /* Assets.xcassets */; };
+		64A859951F8F093800BF0A4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A859931F8F093800BF0A4C /* LaunchScreen.storyboard */; };
+		64A859A01F8F093800BF0A4C /* StepDriveProgrammingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A8599F1F8F093800BF0A4C /* StepDriveProgrammingTests.swift */; };
+		64A859AB1F8F093800BF0A4C /* StepDriveProgrammingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A859AA1F8F093800BF0A4C /* StepDriveProgrammingUITests.swift */; };
+		64A85A001F8F0A1E00BF0A4C /* ForgetPwdGuider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A859F91F8F0A1E00BF0A4C /* ForgetPwdGuider.swift */; };
+		64A85A011F8F0A1E00BF0A4C /* FormateCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A859FA1F8F0A1E00BF0A4C /* FormateCheck.swift */; };
+		64A85A021F8F0A1E00BF0A4C /* SignupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A859FB1F8F0A1E00BF0A4C /* SignupModel.swift */; };
+		64A85A031F8F0A1E00BF0A4C /* SioeyeRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A859FC1F8F0A1E00BF0A4C /* SioeyeRegister.swift */; };
+		64A85A041F8F0A1E00BF0A4C /* SioeyeRegisterControllerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A859FD1F8F0A1E00BF0A4C /* SioeyeRegisterControllerAction.swift */; };
+		64A85A051F8F0A1E00BF0A4C /* StepDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A859FE1F8F0A1E00BF0A4C /* StepDriver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64A8599C1F8F093800BF0A4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64A8597F1F8F093800BF0A4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A859861F8F093800BF0A4C;
+			remoteInfo = StepDriveProgramming;
+		};
+		64A859A71F8F093800BF0A4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64A8597F1F8F093800BF0A4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A859861F8F093800BF0A4C;
+			remoteInfo = StepDriveProgramming;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64A859871F8F093800BF0A4C /* StepDriveProgramming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepDriveProgramming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A8598A1F8F093800BF0A4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64A8598C1F8F093800BF0A4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64A8598F1F8F093800BF0A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64A859911F8F093800BF0A4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64A859941F8F093800BF0A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64A859961F8F093800BF0A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A8599B1F8F093800BF0A4C /* StepDriveProgrammingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepDriveProgrammingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A8599F1F8F093800BF0A4C /* StepDriveProgrammingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepDriveProgrammingTests.swift; sourceTree = "<group>"; };
+		64A859A11F8F093800BF0A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A859A61F8F093800BF0A4C /* StepDriveProgrammingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepDriveProgrammingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A859AA1F8F093800BF0A4C /* StepDriveProgrammingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepDriveProgrammingUITests.swift; sourceTree = "<group>"; };
+		64A859AC1F8F093800BF0A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A859F91F8F0A1E00BF0A4C /* ForgetPwdGuider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetPwdGuider.swift; sourceTree = "<group>"; };
+		64A859FA1F8F0A1E00BF0A4C /* FormateCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormateCheck.swift; sourceTree = "<group>"; };
+		64A859FB1F8F0A1E00BF0A4C /* SignupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupModel.swift; sourceTree = "<group>"; };
+		64A859FC1F8F0A1E00BF0A4C /* SioeyeRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SioeyeRegister.swift; sourceTree = "<group>"; };
+		64A859FD1F8F0A1E00BF0A4C /* SioeyeRegisterControllerAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SioeyeRegisterControllerAction.swift; sourceTree = "<group>"; };
+		64A859FE1F8F0A1E00BF0A4C /* StepDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepDriver.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64A859841F8F093800BF0A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A859981F8F093800BF0A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A859A31F8F093800BF0A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64A8597E1F8F093800BF0A4C = {
+			isa = PBXGroup;
+			children = (
+				64A859891F8F093800BF0A4C /* StepDriveProgramming */,
+				64A8599E1F8F093800BF0A4C /* StepDriveProgrammingTests */,
+				64A859A91F8F093800BF0A4C /* StepDriveProgrammingUITests */,
+				64A859881F8F093800BF0A4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64A859881F8F093800BF0A4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64A859871F8F093800BF0A4C /* StepDriveProgramming.app */,
+				64A8599B1F8F093800BF0A4C /* StepDriveProgrammingTests.xctest */,
+				64A859A61F8F093800BF0A4C /* StepDriveProgrammingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64A859891F8F093800BF0A4C /* StepDriveProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				64A859F81F8F0A1E00BF0A4C /* StepDriver */,
+				64A8598A1F8F093800BF0A4C /* AppDelegate.swift */,
+				64A8598C1F8F093800BF0A4C /* ViewController.swift */,
+				64A8598E1F8F093800BF0A4C /* Main.storyboard */,
+				64A859911F8F093800BF0A4C /* Assets.xcassets */,
+				64A859931F8F093800BF0A4C /* LaunchScreen.storyboard */,
+				64A859961F8F093800BF0A4C /* Info.plist */,
+			);
+			path = StepDriveProgramming;
+			sourceTree = "<group>";
+		};
+		64A8599E1F8F093800BF0A4C /* StepDriveProgrammingTests */ = {
+			isa = PBXGroup;
+			children = (
+				64A8599F1F8F093800BF0A4C /* StepDriveProgrammingTests.swift */,
+				64A859A11F8F093800BF0A4C /* Info.plist */,
+			);
+			path = StepDriveProgrammingTests;
+			sourceTree = "<group>";
+		};
+		64A859A91F8F093800BF0A4C /* StepDriveProgrammingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64A859AA1F8F093800BF0A4C /* StepDriveProgrammingUITests.swift */,
+				64A859AC1F8F093800BF0A4C /* Info.plist */,
+			);
+			path = StepDriveProgrammingUITests;
+			sourceTree = "<group>";
+		};
+		64A859F81F8F0A1E00BF0A4C /* StepDriver */ = {
+			isa = PBXGroup;
+			children = (
+				64A85A071F8F0A6C00BF0A4C /* example */,
+				64A859FE1F8F0A1E00BF0A4C /* StepDriver.swift */,
+			);
+			path = StepDriver;
+			sourceTree = "<group>";
+		};
+		64A85A071F8F0A6C00BF0A4C /* example */ = {
+			isa = PBXGroup;
+			children = (
+				64A859F91F8F0A1E00BF0A4C /* ForgetPwdGuider.swift */,
+				64A859FA1F8F0A1E00BF0A4C /* FormateCheck.swift */,
+				64A859FB1F8F0A1E00BF0A4C /* SignupModel.swift */,
+				64A859FC1F8F0A1E00BF0A4C /* SioeyeRegister.swift */,
+				64A859FD1F8F0A1E00BF0A4C /* SioeyeRegisterControllerAction.swift */,
+			);
+			name = example;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64A859861F8F093800BF0A4C /* StepDriveProgramming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A859AF1F8F093800BF0A4C /* Build configuration list for PBXNativeTarget "StepDriveProgramming" */;
+			buildPhases = (
+				64A859831F8F093800BF0A4C /* Sources */,
+				64A859841F8F093800BF0A4C /* Frameworks */,
+				64A859851F8F093800BF0A4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StepDriveProgramming;
+			productName = StepDriveProgramming;
+			productReference = 64A859871F8F093800BF0A4C /* StepDriveProgramming.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64A8599A1F8F093800BF0A4C /* StepDriveProgrammingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A859B21F8F093800BF0A4C /* Build configuration list for PBXNativeTarget "StepDriveProgrammingTests" */;
+			buildPhases = (
+				64A859971F8F093800BF0A4C /* Sources */,
+				64A859981F8F093800BF0A4C /* Frameworks */,
+				64A859991F8F093800BF0A4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64A8599D1F8F093800BF0A4C /* PBXTargetDependency */,
+			);
+			name = StepDriveProgrammingTests;
+			productName = StepDriveProgrammingTests;
+			productReference = 64A8599B1F8F093800BF0A4C /* StepDriveProgrammingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64A859A51F8F093800BF0A4C /* StepDriveProgrammingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A859B51F8F093800BF0A4C /* Build configuration list for PBXNativeTarget "StepDriveProgrammingUITests" */;
+			buildPhases = (
+				64A859A21F8F093800BF0A4C /* Sources */,
+				64A859A31F8F093800BF0A4C /* Frameworks */,
+				64A859A41F8F093800BF0A4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64A859A81F8F093800BF0A4C /* PBXTargetDependency */,
+			);
+			name = StepDriveProgrammingUITests;
+			productName = StepDriveProgrammingUITests;
+			productReference = 64A859A61F8F093800BF0A4C /* StepDriveProgrammingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64A8597F1F8F093800BF0A4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = alvin;
+				TargetAttributes = {
+					64A859861F8F093800BF0A4C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8TQN657P43;
+						ProvisioningStyle = Automatic;
+					};
+					64A8599A1F8F093800BF0A4C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8TQN657P43;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64A859861F8F093800BF0A4C;
+					};
+					64A859A51F8F093800BF0A4C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8TQN657P43;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64A859861F8F093800BF0A4C;
+					};
+				};
+			};
+			buildConfigurationList = 64A859821F8F093800BF0A4C /* Build configuration list for PBXProject "StepDriveProgramming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64A8597E1F8F093800BF0A4C;
+			productRefGroup = 64A859881F8F093800BF0A4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64A859861F8F093800BF0A4C /* StepDriveProgramming */,
+				64A8599A1F8F093800BF0A4C /* StepDriveProgrammingTests */,
+				64A859A51F8F093800BF0A4C /* StepDriveProgrammingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64A859851F8F093800BF0A4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A859951F8F093800BF0A4C /* LaunchScreen.storyboard in Resources */,
+				64A859921F8F093800BF0A4C /* Assets.xcassets in Resources */,
+				64A859901F8F093800BF0A4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A859991F8F093800BF0A4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A859A41F8F093800BF0A4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64A859831F8F093800BF0A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A8598D1F8F093800BF0A4C /* ViewController.swift in Sources */,
+				64A85A021F8F0A1E00BF0A4C /* SignupModel.swift in Sources */,
+				64A85A011F8F0A1E00BF0A4C /* FormateCheck.swift in Sources */,
+				64A85A051F8F0A1E00BF0A4C /* StepDriver.swift in Sources */,
+				64A8598B1F8F093800BF0A4C /* AppDelegate.swift in Sources */,
+				64A85A031F8F0A1E00BF0A4C /* SioeyeRegister.swift in Sources */,
+				64A85A001F8F0A1E00BF0A4C /* ForgetPwdGuider.swift in Sources */,
+				64A85A041F8F0A1E00BF0A4C /* SioeyeRegisterControllerAction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A859971F8F093800BF0A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A859A01F8F093800BF0A4C /* StepDriveProgrammingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A859A21F8F093800BF0A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A859AB1F8F093800BF0A4C /* StepDriveProgrammingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64A8599D1F8F093800BF0A4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64A859861F8F093800BF0A4C /* StepDriveProgramming */;
+			targetProxy = 64A8599C1F8F093800BF0A4C /* PBXContainerItemProxy */;
+		};
+		64A859A81F8F093800BF0A4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64A859861F8F093800BF0A4C /* StepDriveProgramming */;
+			targetProxy = 64A859A71F8F093800BF0A4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64A8598E1F8F093800BF0A4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A8598F1F8F093800BF0A4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64A859931F8F093800BF0A4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A859941F8F093800BF0A4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64A859AD1F8F093800BF0A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64A859AE1F8F093800BF0A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64A859B01F8F093800BF0A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8TQN657P43;
+				INFOPLIST_FILE = StepDriveProgramming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alvin.StepDriveProgramming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		64A859B11F8F093800BF0A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8TQN657P43;
+				INFOPLIST_FILE = StepDriveProgramming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alvin.StepDriveProgramming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		64A859B31F8F093800BF0A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8TQN657P43;
+				INFOPLIST_FILE = StepDriveProgrammingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alvin.StepDriveProgrammingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepDriveProgramming.app/StepDriveProgramming";
+			};
+			name = Debug;
+		};
+		64A859B41F8F093800BF0A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8TQN657P43;
+				INFOPLIST_FILE = StepDriveProgrammingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alvin.StepDriveProgrammingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepDriveProgramming.app/StepDriveProgramming";
+			};
+			name = Release;
+		};
+		64A859B61F8F093800BF0A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8TQN657P43;
+				INFOPLIST_FILE = StepDriveProgrammingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alvin.StepDriveProgrammingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StepDriveProgramming;
+			};
+			name = Debug;
+		};
+		64A859B71F8F093800BF0A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8TQN657P43;
+				INFOPLIST_FILE = StepDriveProgrammingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alvin.StepDriveProgrammingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StepDriveProgramming;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64A859821F8F093800BF0A4C /* Build configuration list for PBXProject "StepDriveProgramming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A859AD1F8F093800BF0A4C /* Debug */,
+				64A859AE1F8F093800BF0A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64A859AF1F8F093800BF0A4C /* Build configuration list for PBXNativeTarget "StepDriveProgramming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A859B01F8F093800BF0A4C /* Debug */,
+				64A859B11F8F093800BF0A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64A859B21F8F093800BF0A4C /* Build configuration list for PBXNativeTarget "StepDriveProgrammingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A859B31F8F093800BF0A4C /* Debug */,
+				64A859B41F8F093800BF0A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64A859B51F8F093800BF0A4C /* Build configuration list for PBXNativeTarget "StepDriveProgrammingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A859B61F8F093800BF0A4C /* Debug */,
+				64A859B71F8F093800BF0A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64A8597F1F8F093800BF0A4C /* Project object */;
+}
